@@ -1,0 +1,38 @@
+.filterInput__Header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  height: 44px;
+  margin: 0px 10px;
+}
+
+.filterInput__filter {
+  background: #f8f8f8;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filterInput__filter > h4 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #011729;
+  margin: 0px 0px 10px 0px;
+}
+
+.filterInput__inputField {
+  padding: 6px;
+  height: 27px;
+  border: 1px solid #33050c;
+  border-radius: 8px;
+}

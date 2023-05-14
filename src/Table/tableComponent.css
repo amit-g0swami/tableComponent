@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Poppins:wght@100;200;300;400;700&display=swap");
+
+tbody {
+  display: block;
+  height: 480px;
+  overflow: auto;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+}
+
+thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+thead {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 56px;
+}
+
+tbody > tr > td {
+  height: 42px;
+}
+
+thead > tr > td {
+  width: 102px;
+  height: 24px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+table {
+  width: 100%;
+}
+
+p {
+  font-family: Lato;
+  width: 100vw;
+}

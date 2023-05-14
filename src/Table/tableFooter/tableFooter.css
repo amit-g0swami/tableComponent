@@ -1,0 +1,42 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.pagination__rows {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.pagination__rows > select {
+  padding: 6px;
+}
+
+.pagination__page {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.pagination__count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 29px;
+  height: 34px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+
+.pagination__lastDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
